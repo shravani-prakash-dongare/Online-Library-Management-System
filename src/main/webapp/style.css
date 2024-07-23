@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.bg-custom {
+	background: #990066;
+	color: white;
+}
+
+.container {
+	padding: 2rem 0;
+}
+
+.section {
+	margin-bottom: 4rem;
+}
+
+.background {
+	background: white;
+	color: black;
+	opacity: .8;
+	border-color: #3ec9bd;
+}
+
+.p1 {
+	font-weight: 500;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding-top: 300px;
+}
+
+.divpart {
+	margin-top: 300px;
+	padding: 0;
+}
+
+.carousel {
+	height: 77vh;
+}
+
+.backimg1{
+	background-image: url(img/lib1.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.backimg2 {
+	background-image: url(img/lib2.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbackground {
+	background: white;
+}
+
+/* Sticky navbar */
+.sticky-nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1000; /* Make sure it stays above other content */
+}
+
+ul li a {
+	color: black;
+}
+
+#about .col.s6 img {
+	width: 98%;
+	height: auto;
+	border-radius: 5px;
+}
+
+#about .col.s6 img:hover {
+	width: 100%;
+	height: auto;
+}
+
+hr {
+	margin-top: 15px;
+	width: 70px;
+	border: 2px solid #3ec9bd;
+}
+
+.i {
+	color: #fff;
+	padding: 6px 8px;
+	border-radius: 3px;
+	background: #3ec9bd;
+}
+.icolor{
+	color: #3ec9bd;	
+}
+
+footer div a {
+	color: #7e7e92;
+}
+
+ul li a:hover {
+	color: #3ec9bd;
+}
+.bg-purple {
+	background: purple;
+	height: 100vh;
+}
+
+.logo {
+	border-radius: 100px;
+	margin-top: 100px;
+	width: 150px;
+}
+
+.back {
+	background: url(img/admin.jpg);
+	background-color:grey;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
